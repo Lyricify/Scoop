@@ -3,19 +3,19 @@
     "description": "A desktop lyrics and enhancement solution for Spotify.",
     "homepage": "https://lyricify.app",
     "license": "Freeware",
-    "notes": "This manifest installs the self-contained portable build, which includes .NET Desktop Runtime 6.",
+    "notes": "Lyricify requires .NET Desktop Runtime 6. Install it with: scoop install versions/windowsdesktop-runtime-6.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v4.3.50/Lyricify.for.Spotify.Ver.4.3.50.260423-release.self-contained.x64.7z",
-            "hash": "8c61903b336b4d05237679c67e222347bf71d5f2d641bb56f390efa3f910e0d9"
+            "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v4.3.50/Lyricify.for.Spotify.Ver.4.3.50.260423-release.x64.7z",
+            "hash": "7be3b3be1276982c2c5565caf659e606e6d7c0812145db46aa73bc01e11d3189"
         },
         "32bit": {
-            "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v4.3.50/Lyricify.for.Spotify.Ver.4.3.50.260423-release.self-contained.x86.7z",
-            "hash": "ceb470fca08ca12dcfda9f58ff78cf15930e810aea4c80e5d95321bf7f43d164"
+            "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v4.3.50/Lyricify.for.Spotify.Ver.4.3.50.260423-release.x86.7z",
+            "hash": "9de14227012a9cdb30df51e0d48b2eb4284d27a1a71919d014f477d20987cdbb"
         },
         "arm64": {
-            "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v4.3.50/Lyricify.for.Spotify.Ver.4.3.50.260423-release.self-contained.Arm64.7z",
-            "hash": "b70d9e5b80fffd1f9dcaf3ef8693c94537fe08eb5f112c72426b5e6555263d5c"
+            "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v4.3.50/Lyricify.for.Spotify.Ver.4.3.50.260423-release.Arm64.7z",
+            "hash": "b03248adba137aeb5282070f765bd64004998752b6109d7a8221338073d2b730"
         }
     },
     "shortcuts": [
@@ -31,13 +31,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v$matchHead/Lyricify.for.Spotify.Ver.$version-release.self-contained.x64.7z"
+                "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v$matchHead/Lyricify.for.Spotify.Ver.$version-release.x64.7z"
             },
             "32bit": {
-                "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v$matchHead/Lyricify.for.Spotify.Ver.$version-release.self-contained.x86.7z"
+                "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v$matchHead/Lyricify.for.Spotify.Ver.$version-release.x86.7z"
             },
             "arm64": {
-                "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v$matchHead/Lyricify.for.Spotify.Ver.$version-release.self-contained.Arm64.7z"
+                "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v$matchHead/Lyricify.for.Spotify.Ver.$version-release.Arm64.7z"
             }
         }
     }

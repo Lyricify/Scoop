@@ -6,6 +6,7 @@ A small [Scoop](https://scoop.sh) bucket for installing [Lyricify](https://lyric
 
 ```powershell
 scoop bucket add lyricify https://github.com/Lyricify/Scoop
+scoop install versions/windowsdesktop-runtime-6.0
 scoop install lyricify
 ```
 
@@ -21,4 +22,4 @@ scoop install C:\Users\sheng.fan\Projects\Lyricify-Scoop\bucket\lyricify.json
 | --- | --- | --- |
 | `lyricify` | Lyricify 4 for Spotify | `WXRIW/Lyricify-App` |
 
-The manifest uses Lyricify's self-contained portable archives so the .NET Desktop Runtime 6 dependency is bundled with the application.
+Lyricify requires .NET Desktop Runtime 6, which can be installed from Scoop with `scoop install versions/windowsdesktop-runtime-6.0`.
