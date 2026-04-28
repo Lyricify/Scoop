@@ -7,6 +7,7 @@ A small [Scoop](https://scoop.sh) bucket for installing [Lyricify](https://lyric
 ```powershell
 scoop bucket add lyricify https://github.com/Lyricify/Scoop
 scoop install versions/windowsdesktop-runtime-6.0
+scoop install spotify
 scoop install lyricify
 ```
 
@@ -23,3 +24,7 @@ scoop install C:\Users\sheng.fan\Projects\Lyricify-Scoop\bucket\lyricify.json
 | `lyricify` | Lyricify 4 for Spotify | `WXRIW/Lyricify-App` |
 
 Lyricify requires .NET Desktop Runtime 6, which can be installed from Scoop with `scoop install versions/windowsdesktop-runtime-6.0`.
+
+Installing .NET Desktop Runtime 6 requires admin permissions. On Windows 11 25H2 or later with `sudo` enabled, use `sudo scoop install versions/windowsdesktop-runtime-6.0` instead.
+
+Spotify can also be installed from Scoop xD: `scoop install spotify`.
