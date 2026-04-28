@@ -3,7 +3,9 @@
     "description": "A desktop lyrics and enhancement solution for Spotify.",
     "homepage": "https://lyricify.app",
     "license": "Freeware",
-    "notes": "Lyricify requires .NET Desktop Runtime 6. Install it with: scoop install versions/windowsdesktop-runtime-6.0",
+    "suggest": {
+        ".NET Desktop Runtime 6.0": "versions/windowsdesktop-runtime-6.0"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v4.3.50/Lyricify.for.Spotify.Ver.4.3.50.260423-release.x64.7z",
