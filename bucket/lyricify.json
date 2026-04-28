@@ -1,0 +1,44 @@
+{
+    "version": "4.3.50.260423",
+    "description": "A desktop lyrics and enhancement solution for Spotify.",
+    "homepage": "https://lyricify.app",
+    "license": "Freeware",
+    "notes": "This manifest installs the self-contained portable build, which includes .NET Desktop Runtime 6.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v4.3.50/Lyricify.for.Spotify.Ver.4.3.50.260423-release.self-contained.x64.7z",
+            "hash": "8c61903b336b4d05237679c67e222347bf71d5f2d641bb56f390efa3f910e0d9"
+        },
+        "32bit": {
+            "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v4.3.50/Lyricify.for.Spotify.Ver.4.3.50.260423-release.self-contained.x86.7z",
+            "hash": "ceb470fca08ca12dcfda9f58ff78cf15930e810aea4c80e5d95321bf7f43d164"
+        },
+        "arm64": {
+            "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v4.3.50/Lyricify.for.Spotify.Ver.4.3.50.260423-release.self-contained.Arm64.7z",
+            "hash": "b70d9e5b80fffd1f9dcaf3ef8693c94537fe08eb5f112c72426b5e6555263d5c"
+        }
+    },
+    "shortcuts": [
+        [
+            "Lyricify for Spotify.exe",
+            "Lyricify"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/WXRIW/Lyricify-App",
+        "regex": "Lyricify for Spotify Ver ([\\d.]+)-release"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v$matchHead/Lyricify.for.Spotify.Ver.$version-release.self-contained.x64.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v$matchHead/Lyricify.for.Spotify.Ver.$version-release.self-contained.x86.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v$matchHead/Lyricify.for.Spotify.Ver.$version-release.self-contained.Arm64.7z"
+            }
+        }
+    }
+}
