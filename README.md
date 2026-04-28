@@ -27,4 +27,4 @@ Lyricify requires .NET Desktop Runtime 6, which can be installed from Scoop with
 
 Installing .NET Desktop Runtime 6 requires admin permissions. On Windows 11 25H2 or later with `sudo` enabled, use `sudo scoop install versions/windowsdesktop-runtime-6.0` instead.
 
-Spotify can also be installed from Scoop xD: `scoop install spotify`.
+_Spotify can also be installed from Scoop :D_ `scoop install spotify`.
