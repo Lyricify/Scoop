@@ -5,7 +5,7 @@ A small [Scoop](https://scoop.sh) bucket for installing [Lyricify](https://lyric
 ## Usage
 
 ```powershell
-scoop bucket add lyricify https://github.com/<your-github-user>/Lyricify-Scoop
+scoop bucket add lyricify https://github.com/Lyricify/Scoop
 scoop install lyricify
 ```
 
